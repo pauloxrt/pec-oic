@@ -1,0 +1,31 @@
+body{   
+    background-color:black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 200px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+ul li{
+    background-color: #658DA3;
+    border-radius: 50px;
+    width: 500px;
+    margin: 50px auto;
+    height: 60px;
+    padding-top: 10px auto;
+	line-height: 200px auto;
+    font-size: 30px;
+    z-index: 2;       
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    background-color: indianred;
+    transition: 2s;
+}
